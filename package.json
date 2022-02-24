@@ -1,0 +1,17 @@
+{
+  "name": "random_airport",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "shelljs": "^0.8.5",
+    "twitter": "^1.7.1"
+  }
+}
