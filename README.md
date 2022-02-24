@@ -1,6 +1,6 @@
 Uploads satellite image of airports around the world.
 
-Sample output:
+Sample output:<br>
 SIN - Singapore Changi Airport<br>
 ISO region - SG-04<br>
 Elevation - 22ft<br>
