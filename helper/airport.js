@@ -41,7 +41,7 @@ const airport = async () => {
   }
 
   const url = `https://api.mapbox.com/styles/v1/mapbox/satellite-v9/static/${airport?.longitude_deg},${airport?.latitude_deg},${zoom},0/800x800?access_token=${process.env.MAPBOX_TOKEN}`;
-  const message = `${airport?.iata_code} - ${airport?.name}\nISO region - ${airport?.iso_region}\nElevation - ${airport?.elevation_ft}ft`;
+  const message = `${airport?.iata_code} - ${airport?.name}\nISO region - ${airport?.iso_region}\nElevation - ${airport?.elevation_ft}ft\n#aviation`;
 
   await downloadFile(url, "../image", "airport.jpg");
 
